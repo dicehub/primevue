@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import ObjectUtils from 'primevue/utils/ObjectUtils';
+import ObjectUtils from '../utils/ObjectUtils';
 import TreeNode from './TreeNode.vue';
 
 export default defineComponent({
