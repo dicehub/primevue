@@ -78,7 +78,7 @@ const TreeNodeTemplate = {
   },
 };
 
-export default defineComponent({
+export default {
   name: 'SubTreenode',
   components: { TreeNodeTemplate },
   directives: {
@@ -360,5 +360,5 @@ export default defineComponent({
       return this.selectionMode === 'checkbox';
     },
   },
-});
+};
 </script>

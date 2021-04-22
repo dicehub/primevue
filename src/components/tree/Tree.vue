@@ -38,7 +38,7 @@
 import ObjectUtils from '../utils/ObjectUtils';
 import TreeNode from './TreeNode.vue';
 
-export default defineComponent({
+export default {
   components: {
     TreeNode,
   },
@@ -314,7 +314,7 @@ export default defineComponent({
       return matched;
     },
   },
-});
+};
 </script>
 
 <style>
